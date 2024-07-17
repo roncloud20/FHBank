@@ -9,5 +9,3 @@
     <header>
         <h1>Flex Horizon Bank</h1>
     </header>
-</body>
-</html>
