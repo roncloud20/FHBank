@@ -1,6 +1,6 @@
 <?php 
-require_once('header.php')
-$pagetitle = 'Register your account'
+    $pageTitle = 'Register your account';
+    require_once("assets/header.php");
 ?>
 <h1>Register with FHBANK</h1>
 
