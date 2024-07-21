@@ -1,8 +1,9 @@
+
 <?php
-    $pageTitle = "About FHBank";
+    $pageTitle = " frequently ask question";
     require_once("assets/header.php");
 ?>
-<h1>FHBank</h1>
+<h1>FAQ</h1>
 
 <?php
     require_once("assets/footer.php");
