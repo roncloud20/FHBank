@@ -1,4 +1,3 @@
-<?php 
 require_once('assets/header.php');
 $pagetitle = 'Register your account';
 $firstname = $lastname = $email = $password = $cpassword = '';
