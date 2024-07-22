@@ -1,6 +1,6 @@
 <?php
-require_once('assets/header.php');
 $pageTitle = 'Register your account';
+require_once('assets/header.php');
 $firstname = $lastname = $email = $password = $cpassword = '';
     $firstnameerror = $lastnameerror =$emailerror =$passerror = $cpasserror = '';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
@@ -30,16 +30,8 @@ $firstname = $lastname = $email = $password = $cpassword = '';
         }
     }
 ?>
+<link rel="stylesheet" href="register.css"/>
 <h1>Register with FHBANK</h1>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="register.css">
-    <title><?php echo $pagetitle ?></title>
-</head>
-<body>
 <div class="container">
         <h2>Bank Registration Form</h2>
         <form  method="post">
@@ -63,7 +55,7 @@ $firstname = $lastname = $email = $password = $cpassword = '';
 
             <label for="cpassword">Confirm Password:</label>
             <input type="password" id="cpassword" name="cpassword">
-            <span><?php echo "cpasserror" ?></span>
+            <span><?= $cpasserror ?></span>
 
             <label for="account_type">Account Type:</label>
             <select id="account_type" name="account_type" required>
