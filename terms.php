@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = " Frequently ask question";
+    $pageTitle = "Terms & Condition";
     require_once("assets/header.php");
 ?>
 <h1>Terms & Condition</h1>
