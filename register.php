@@ -1,5 +1,6 @@
+<?php
 require_once('assets/header.php');
-$pagetitle = 'Register your account';
+$pageTitle = 'Register your account';
 $firstname = $lastname = $email = $password = $cpassword = '';
     $firstnameerror = $lastnameerror =$emailerror =$passerror = $cpasserror = '';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
