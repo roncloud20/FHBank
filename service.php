@@ -4,7 +4,7 @@
 ?>
 <h1>service page</h1>
 
-
+<h1>Lagos is big</h1>
 <?php
     require_once("assets/footer.php");
 ?>
