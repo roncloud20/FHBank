@@ -2,9 +2,6 @@
     $pageTitle = "Welcome To Flex Horizon Bank";
     require_once("assets/header.php");
 ?>
-<<<<<<< HEAD
-<!-- <h1>Hello World</h1> -->
-=======
 <h1>Hello World</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vitae saepe eos illum rerum sunt quam, debitis, quas ducimus sapiente eum, inventore quos quae numquam dignissimos reprehenderit consequuntur? Saepe, perferendis?</p>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vitae saepe eos illum rerum sunt quam, debitis, quas ducimus sapiente eum, inventore quos quae numquam dignissimos reprehenderit consequuntur? Saepe, perferendis?</p>
@@ -24,4 +21,3 @@
 <?php
     require_once("assets/footer.php");
 ?>
->>>>>>> a9edccffa7b2b364b7ef6bc902155510e43eb45f
