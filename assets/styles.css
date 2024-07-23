@@ -23,14 +23,12 @@ nav{
 
 nav a{
     text-decoration: none;
+    color: #fff;
 }
 
 nav h1{
     color: #fff;
     font-size: 30px;
-}
-nav a{
-    color: #fff;
 }
 
 
@@ -42,7 +40,7 @@ nav a{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 20px;
+    padding: 8px 15px;
     position: relative;
 }
 .nav-links ul li a{
@@ -62,7 +60,6 @@ nav a{
 .nav-links ul li a:hover::after{
     width: 100%;
 }
-
 
 /* ----banner---- */
 .banner{
