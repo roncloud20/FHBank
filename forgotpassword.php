@@ -14,7 +14,7 @@
         }
     }
 ?>
-<link rel="stylesheet" href="./forgotPassword.css">
+<link rel="stylesheet" href="fhbCSS/forgotPassword.css">
 <div class="container">
     <h1 class="myh1">Reset account Password</h1>
     <p class="myp">Enter a new password</p>
