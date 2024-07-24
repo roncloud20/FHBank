@@ -11,7 +11,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="fhbCSS/contact.css">
       </head>
   <body>
 
@@ -84,6 +84,8 @@
           <a href = "#" class = "fab fa-linkedin"></a>
           <a href = "#" class = "fab fa-youtube"></a>
         </div>
+        <br/>
+        <p> FHBANK&#169; Copyright @2024</p>
       </div>
     </section>
 

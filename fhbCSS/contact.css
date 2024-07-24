@@ -5,8 +5,8 @@
     margin: 0;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* line-height: 1.5; */
 }
 .contact-bg{
     height: 40vh;
@@ -139,6 +139,12 @@ body{
     background: #000;
 }
 .contact-footer h3{
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.contact-footer p{
     font-size: 1.3rem;
     color: #fff;
     margin-bottom: 1rem;
