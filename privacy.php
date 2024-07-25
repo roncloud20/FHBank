@@ -8,6 +8,7 @@
         <h1>Privacy Policy</h1>
         <p>Last Updated: November 2025</p>
     </div>
+    
     <div class="contain flex">
         <div class="content">
             <p class="p-info">Flex Horizon Bank is committed to protecting the privacy and security of our customers' personal information. This Privacy Policy explains how we collect, use, disclose, and protect your information when you visit our website, use our services, or interact with us in any way.</p>
