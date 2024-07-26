@@ -4,11 +4,8 @@
 ?>
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-
 <main>
-
-   <h2 class="ms-2 p-2">Account Registration Page</h2>
-    
+   <h2 class="ms-2 p-2">Account Registration Page</h2>    
     <div class="container-fluid d-flex flex-row mb-3 gap-5">
         <div class="row mt-3">
         
@@ -20,8 +17,7 @@
                     <option value="2">Current</option>
                     <option value="3">Fixed</option>
                </select>
-            </div>
-            
+            </div>            
             <div class="input-group-md mb-3 p-2 col-5 ms-5">
             <h4>Currency Type</h4>
                 <select class="form-select" id="inputGroupSelect02">
@@ -36,10 +32,8 @@
             </div>
        </div>
     </div>
-
     <h3 class="mt-5 ms-3">Personal Information</h3>
     <p class="ms-3">The information given in this section is considered as the information of the primary account owner information. </p>
-
     <div class="row">
             <div class="input-group-md mb-3 col-1 ms-3 ">
                 <select class="form-select" id="inputGroupSelect02">
@@ -78,8 +72,6 @@
             <div class="col-5">
                 <input type="text" class="form-control" placeholder="Street Address Line 2" aria-label="Address">
             </div>
-
-
         </div>
     <div class="row g-3">
             <div class="col-sm-7 ms-3">
@@ -91,8 +83,7 @@
         <div class="col-sm">
                  <input type="number" class="form-control" placeholder="Zip" aria-label="Zip">
         </div>
-    </div>
-    
+    </div>    
     <div class="row g-3 ms-3 d-flex">
     <h6 class="ms-1 mt-5">Citizenship</h6>
         <div class="form-check-sm">
@@ -128,9 +119,7 @@
             <input type="text" class="form-control" placeholder="Employer Name" aria-label="Employer Name">
         </div>
     </div>
-
     <hr class="mt-5 mb-5 ms-5 col-11 ">
-
     <p class="ms-4">Do you want to add joint owner to the bank account?</p>
     <div class="d-flex gap-5 ms-4" >
         <div class="form-check form-check-inline">
@@ -142,14 +131,10 @@
             <label class="form-check-label" for="inlineRadio2">No</label>
         </div>
     </div>
-
     <hr class="mt-5 mb-5 ms-5 ps-5 col-11">
-
     <h1 class="ms-4">Joint Owner Information</h1>
-
     <hr class=" mt-3 mb-5 ms-5 ps-5 col-11">
     <p class="fst-italic ms-4">By signing this form, i acknowledge that the information i've given in this form is accurate and i agree with the terms & conditions.</p>
-
     <div class="col-12 ms-4">
     <div class="form-check">
       <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -157,9 +142,8 @@
        i agree to <a href="#">terms & conditions *</a>
       </label>
     </div>
-  </div>
-   
-  <div class="col-sm mt-5 mb-5 ms-4">
+    </div>   
+    <div class="col-sm mt-5 mb-5 ms-4">
       <h5>Date</h5>
       <div class="col-sm col-5">
             <input type="date" class="form-control" placeholder="Date of Birth" aria-label="Date of registration">
@@ -169,8 +153,7 @@
     <div class="form-floating col-5 ms-4">
        <textarea class="form-control" placeholder="Sign here" id="floatingTextarea2" style="height: 35px width: 35px"></textarea>
       <label for="floatingTextarea2">Sign here</label>
-    </div>
-    
+    </div>    
     <hr class="mt-5 mb-5 col-11 ms-5">
     <div class="d-flex justify-content-center">
         <button type="button" class="btn btn-danger mb-5" style="width: 25%;">Submit</button>
