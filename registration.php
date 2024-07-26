@@ -73,14 +73,14 @@
                 <input type="text" class="form-control" placeholder="Street Address Line 2" aria-label="Address">
             </div>
         </div>
-    <div class="row g-3">
-            <div class="col-sm-7 ms-3">
+    <div class="row g-3 ms-3">
+            <div class="col-3">
                  <input type="text" class="form-control" placeholder="City" aria-label="City">
             </div>
-            <div class="col-sm">
+            <div class="col-3">
                  <input type="text" class="form-control" placeholder="State" aria-label="State">
             </div>
-        <div class="col-sm">
+        <div class="col-3">
                  <input type="number" class="form-control" placeholder="Zip" aria-label="Zip">
         </div>
     </div>    
