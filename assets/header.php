@@ -18,6 +18,7 @@
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="about.php">ABOUT</a></li>
                     <li><a href="service.php">SERVICES</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
                     <li><a href="FAQ.php">FAQ</a></li>
                     <li><a href="register.php">REGISTER</a></li>
                 </ul>
