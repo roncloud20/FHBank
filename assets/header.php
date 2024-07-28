@@ -96,7 +96,8 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="service.php">Our Services</a></li>
-                        <li><a class="dropdown-item" href="#">Limit Upgrade</a></li>
+                        <li><a class="dropdown-item" href="privacy.php">Privacy Policy</a></li>
+                        <li><a class="dropdown-item" href="FAQ.php">FAQ</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Account</a></li>
                     </ul>
