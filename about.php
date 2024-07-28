@@ -1,7 +1,4 @@
-<?php
-    $pageTitle = "About FHBank";
-    require_once("assets/header.php");
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Bootstrap Example</title>
@@ -13,7 +10,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    
+
+<?php
+    $pageTitle = "About FHBank";
+    require_once("assets/header.php");
+?>
 
 <h1>FHBank</h1>
 <section class="about">
