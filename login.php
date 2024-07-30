@@ -1,6 +1,6 @@
 <?php
     $pageTitle = "login";
-    require_once("assets/header.php");
+
 ?>
 <!doctype html>
 <html lang="en">
