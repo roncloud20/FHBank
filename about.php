@@ -22,16 +22,16 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row gy-3 gy-md-4 gy-lg-0">
+  <div class="container ">
+    <div class="row gy-3 gy-md-4 gy-lg-0 " >
       <div class="col-12 col-lg-6">
-        <div class="card bg-light p-3 m-0">
+        <div class="card bg-light p-3 m-0 d-flex align-items-stretch">
           <div class="row gy-3 gy-md-0 align-items-md-center">
             <div class="col-md-5">
               <img src="./assets/images/images.jpeg" class="img-fluid rounded-start" alt="Why Choose Us?">
             </div>
-            <div class="col-md-7">
-              <div class="card-body p-0">
+            <div class="col-md-7 ">
+              <div class="card-body p-0 ">
                 <h2 class="card-title h4 mb-3">Why Choose Us?</h2>
                 <p class="card-text lead">With years of experience and deep industry knowledge, we have a proven track record of success and are pushing ourselves to stay ahead of the curve.</p>
               </div>
