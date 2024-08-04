@@ -9,13 +9,9 @@
   <link rel="stylesheet" href="fhbCSS/about.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-
-<?php
-    $pageTitle = "About FHBank";
-    require_once("assets/header.php");
-?>
-
+    
 <h1>FHBank</h1>
 <section class="about">
     <div class="about1">
@@ -54,6 +50,7 @@
     </div>
 </section>
 </body>
+
 </html>
 <?php
     require_once("assets/footer.php");
