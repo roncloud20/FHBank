@@ -1,16 +1,24 @@
-<?php
-    $pageTitle = "About FHBank";
-    require_once("assets/header.php");
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <title></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="fhbCSS/about.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-
 </head>
+
+
+<body>   
+<h1>FHBank</h1>
+<section class="about">
+    <div class="about1">
+        <h1>ABOUT US</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quod quis! Vero impedit ullam ad quis odit harum accusamus sit, incidunt veniam tempore eligendi voluptates, quae ab velit labore atque.</p>
 <section class="py-3 py-md-5 py-xl-8">
   <div class="container">
     <div class="row">
@@ -19,6 +27,7 @@
         <h2 class="display-5 mb-4">At our core, we prioritize pushing boundaries, embracing the unknown, and fostering a culture of continuous learning.</h2>
         <button type="button" class="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5">Connect Now</button>
       </div>
+
     </div>
   </div>
 
@@ -57,7 +66,10 @@
     </div>
   </div>
 </section>
+</body>
 
+</html>
+  
 <?php
     require_once("assets/footer.php");
 ?>

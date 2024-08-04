@@ -1,3 +1,9 @@
+
+<?php
+    $pageTitle = "Welcome To Flex Horizon Bank";
+    require_once("assets/header.php");
+?>
+
 <!doctype html>
 
 <head>
@@ -401,3 +407,8 @@
 </script>
  </body>
 </html>
+
+
+<?php
+    require_once("assets/footer.php");
+?>
