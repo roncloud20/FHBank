@@ -7,11 +7,11 @@ ul{
     padding-left: 40px;
     padding-block: 10px;
 }
-img,picture{
+/* img,picture{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 .contain{
     padding-inline: 3em;
 }
@@ -50,7 +50,7 @@ img,picture{
     flex: 1 0;
 }
 .info-img{
-    width: 500px;
+    width: 50px;
     height: 600px;
     object-fit: cover;
     padding-left: 40px;

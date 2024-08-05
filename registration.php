@@ -159,8 +159,10 @@
         <button type="button" class="btn btn-danger mb-5" style="width: 25%;">Submit</button>
     </div>
 </main> 
+
+
 <?php
-    require_once("assets/footers.php");
+    require_once("assets/footer.php");
 ?>  
     
 
