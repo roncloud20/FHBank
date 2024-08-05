@@ -75,7 +75,7 @@
 
    
 
-      <div class = "contact-footer">
+      <!-- <div class = "contact-footer">
         <h3>Follow Us</h3>
         <div class = "social-links">
           <a href = "#" class = "fab fa-facebook-f"></a>
@@ -87,9 +87,13 @@
         <br/>
         <p> FHBANK&#169; Copyright @2024</p>
       </div>
-    </section>
+    </section> -->
 
     
 
   </body>
 </html>
+
+<?php
+    require_once("assets/footer.php");
+?>

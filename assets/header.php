@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $pageTitle ?></title>
-    <link rel="stylesheet" href="assets/styles.css">
+    
+    <link rel="stylesheet" href="styles.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -14,12 +15,69 @@
 
    
     
-    <!-- <link href="fhbCSS/style1.css" rel="stylesheet"> -->
+    <!-- <link href="fhbCSS/style.css" rel="stylesheet"> -->
 
     <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css"> -->
 
 </head>
 <body>
+
+    <!-- <!=======================
+       navbar header
+    ============================> -->
+    <header class="header">
+    <div class="header-inner pb-2">
+       <div class="container-fluid px-lg-5">
+            <nav class="navbar navbar-expand-lg my-navbar px-lg-0">
+    <a class="navbar-brand" href="#"><img src="img/bbb.jpg" class="img-fluid" style="width: 250px;"/></a>
+    <button class="navbar-toggler" type="button">
+        <a href="#" class="burger-button" id="burger-button">
+        <span class="burger-button-icon"></span>
+      </a>
+    </button>
+    
+    <div class="collapse navbar-collapse  mobile-menu  d-flex flex-column justify-content-lg-end justify-content-md-center h-100 flex-lg-row flex-xl-row " id="navbarSupportedContent">
+    <ul class="navbar-nav align-self-stretch">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php"> HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php">ABOUT US</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="contact.php">CONTACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="registration.php">REGISTER</a>
+      </li>
+      <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        SERVICES
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="service.php">Our Services</a></li>
+                        <li><a class="dropdown-item" href="privacy.php">Privacy Policy</a></li>
+                        <li><a class="dropdown-item" href="FAQ.php">FAQ</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Account</a></li>
+                        <li><a class="dropdown-item" href="forgotpassword.php">Forgot Password</a></li>
+                        <li><a class="dropdown-item" href="staffRecruitment.php">Staff Recruitment</a></li>
+                    </ul>
+                </li>
+    </ul>
+    </div>
+    </nav>
+    </div>
+    </div>
+    </header>
+    
+    <!-- <!=======================
+       navbar header
+    ============================> -->
+
+
+
+                <!-- //PREVIOUS HEADER// -->
 
     <!-- <header> 
         <nav >  -->
@@ -72,7 +130,7 @@
 
 
 
-    <header>
+    <!-- <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php"><img src="assets/images/bbb.jpg" height="50vh"></h1> <em><p>...Expanding your Financial Future</p></em></a>
@@ -110,6 +168,9 @@
 </div>
 </nav>
 
-    </header>
+    </header> -->
+
+
+
 
     

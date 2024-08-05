@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +14,10 @@
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
+<?php
+    $pageTitle = "Welcome To Flex Horizon Bank";
+    require_once("assets/header.php");
+?>
 
 <body>   
 <h1>FHBank</h1>

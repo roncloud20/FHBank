@@ -9,7 +9,7 @@
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
 <form>
-    <h2> STAFF RECRUITMENT FORM</h2>
+    <h2 class="pt-4"> STAFF RECRUITMENT FORM</h2>
     <i> With Detailed Description</i>
 
     <div id="employ" class="pt-4">
@@ -100,16 +100,14 @@
     <h4>EDUCATION</h4>
         <div>
             <p>High School Diploma/GED/HiSET?</p>
-            <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">Yes</label>
-            </div>
-
-            <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">No</label>
-            </div>
-        </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1"> Yes </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2"> No </label>
+                </div>
 
         <div id="employ">
             <div class="row mb-3" id="addy">
@@ -286,7 +284,7 @@
             </div>
         </div>
 
-        <div class="col-12 pt-4">
+        <div class="col-12 pt-4 pb-4">
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
 </form>
