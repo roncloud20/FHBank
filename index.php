@@ -30,49 +30,11 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-   <link href="style.css" rel="stylesheet">
+   <link href="fhbCSS/style.css" rel="stylesheet">
 
   </head>
   <body>
 
-<!=======================
-       navbar header
-============================>
- <header class="header">
-   <div class="header-inner">
-       <div class="container-fluid px-lg-5">
-            <nav class="navbar navbar-expand-lg my-navbar px-lg-0">
-  <a class="navbar-brand" href="#"><img src="img/bbb.jpg" class="img-fluid" style="width: 250px;"/></a>
-  <button class="navbar-toggler" type="button">
-        <a href="#" class="burger-button" id="burger-button">
-        <span class="burger-button-icon"></span>
-      </a>
-  </button>
-
-  <div class="collapse navbar-collapse  mobile-menu  d-flex flex-column justify-content-lg-end justify-content-md-center h-100 flex-lg-row flex-xl-row " id="navbarSupportedContent">
-    <ul class="navbar-nav align-self-stretch">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-     <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Register</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-  </div>
-   </div>
-</header>
-
-<!=======================
-       navbar header
-============================>
 
 
 
@@ -116,7 +78,7 @@
        <div class="col-md-9">
            <div class="slider-caption text-left">
              <h2> Welcome To Flex Horizon Bank</h2>
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum sapiente hic, pariatur veritatis eos inventore deserunt quod? Earum quae quos molestias consequatur iste  <br>     <a href="#" class="slider-btn">Bank With Us</a>
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum sapiente hic, pariatur veritatis eos inventore deserunt quod? Earum quae quos molestias consequatur iste  <br>     <a href="service.php" class="slider-btn">Bank With Us</a>
          </div>
        </div>
       </div>
@@ -132,7 +94,7 @@
           <h5>Welcome To Flex Horizon Bank</h5>
               <h5><span>Your No1 AI Bank
                 Solving All your Financial Issues is our concern</span></h5>
-          <a href="#" class="slider-btn">Bank with Us</a>
+          <a href="about.php" class="slider-btn">Bank with Us</a>
          </div>
        </div>
       </div>
@@ -329,40 +291,6 @@
 <!===========================
   service section end
 ============================>  
-
-<!===========================
-  footer-section
-============================>
-      <footer class="footer">
-       <div class="container">
-         <div class="row">
-           <div class="col-md-4 col-sm-4">
-             <div class="rights">
-               <h2> FLEX HORIZON BANK</h2>
-               <h5>&copy; copyright New Horizon</h5>
-             </div>
-           </div>
-           <div class="col-md-4 col-sm-4">
-             <div class="office">
-               <h1>Office address</h1>
-               <p>New Horizon Bode-Thomas</p>
-             </div>
-           </div>
-           <div class="col-md-4 col-sm-4">
-             <div class="social">
-               <a href="#"><i class="fa fa-facebook icon" aria-hidden="true"></i></a>
-               <a href="#"><i class="fa fa-instagram icon" aria-hidden="true"></i></a>
-               <a href="#"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
-             </div>
-           </div>
-         </div>
-       </div>
-     </footer>
-
-  
-<!===========================
- footer section end
-============================>
  
 
     <!-- Optional JavaScript -->

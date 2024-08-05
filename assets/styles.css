@@ -4,13 +4,11 @@
 }
 
 /* ---header--- */
-/* header{
+/* .header{
     min-height: 100vh;
     width: 100%;
     background-image:linear-gradient(rgba(8, 15, 45, 0.7),rgba(12, 19, 46, 0.7)),url(./images/skyscp1.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    background-color: aquamarine;
 } */
 
 /* .container-fluid{
@@ -155,8 +153,96 @@ nav h1{
 }
 
 /* ----footer--- */
-footer{
-    background-color: black;
+
+ /*==============================
+     footer Section 
+ ==============================*/
+ 
+ .footer{position: relative;
+    width: 100%;
+    background: black;
+    padding: 60px 0px;}
+
+    .rights h4{margin: 0 0 30px;
+        color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3.1px;
+      font-family: "Roboto", Sans-serif;}
+
+      .rights h5{margin: 0 0 10px;
+     color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+      letter-spacing: -0.04em;
+    line-height: 1.3;}
+
+      .office h1{margin: 0 0 20px;
+        color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3.1px;
+      font-family: "Roboto", Sans-serif;}
+
+      .office p{ color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+      letter-spacing: -0.04em;
+    line-height: 1.3;
+
+      }
+
+.social{
+  position: relative;
+  display: flex;
+  justify-content:center;
+margin-top:30px;
+}
+
+.social .icon{
+  width:40px;
+  height: 40px;
+  line-height: 40px;
+  background: white;
+
+  color:black; 
+  border-radius: 50%;
+  font-size: 22px;
+  text-align: center;
+  margin-right: 5px;
+  transform: scale(1);
+  transition: 0.3s ease;
+}
+
+.social .icon:hover{
+ transform: scale(.9);
+ background: grey;
+}
+
+/*==============================
+    footer Section 
+==============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer{
+    background:black;
     text-align: center;
     padding-top: 1.5rem;
     height: 25vh;
@@ -245,4 +331,4 @@ nav .fa{
     footer{
         height: 30vh;
     }
-}
+} */

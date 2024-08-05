@@ -2,7 +2,7 @@
     $pageTitle = "Privacy and Policies";
     require_once("assets/header.php");
 ?>
-    <link rel="stylesheet" href="./fhbCSS/privacy.css">
+    <link rel="stylesheet" href="fhbCSS/privacy.css">
 
     <div class="contain bg-color">
         <h1>Privacy Policy</h1>
@@ -47,9 +47,9 @@
                 <p class="p-info">We implement a variety of security measures to protect your personal information. These measures include physical, technical, and administrative safeguards to prevent unauthorized access, use, or disclosure of your information.</p>
             </div>
         </div>
-        <div class="info-img">
+        <!-- <div class="info-img">
             <img src="./assets/images/skyscrp2.jpg" alt="">
-        </div>
+        </div> -->
     </div>
 <?php
     require_once("assets/footer.php");
